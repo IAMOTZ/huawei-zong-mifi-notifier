@@ -1,0 +1,29 @@
+{
+  "name": "huawei-zong-mifi-notifier",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start:dev": "ts-node ./app.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/IAMOTZ/huawei-zong-mifi-notifier.git"
+  },
+  "author": "Tunmise Ogunniyi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/IAMOTZ/huawei-zong-mifi-notifier/issues"
+  },
+  "homepage": "https://github.com/IAMOTZ/huawei-zong-mifi-notifier#readme",
+  "devDependencies": {
+    "@types/node": "^13.7.6",
+    "ts-node": "^8.6.2"
+  },
+  "dependencies": {
+    "axios": "^0.19.2",
+    "dotenv": "^8.2.0",
+    "typescript": "^3.8.2",
+    "xml-js": "^1.6.11"
+  }
+}
