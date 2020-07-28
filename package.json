@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start:dev": "ts-node ./app.ts"
+    "start:dev": "ts-node ./app.ts",
+    "debug": "node --inspect-brk=41471 -r ts-node/register ./app.ts "
   },
   "repository": {
     "type": "git",
